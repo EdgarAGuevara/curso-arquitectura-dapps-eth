@@ -1,0 +1,1 @@
+export const abiPlatziFoodAddress ="0xC06C3D9252c3726d34D6f231e0167b35f4613e55"
