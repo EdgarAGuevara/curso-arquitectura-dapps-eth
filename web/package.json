@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next build && node start-server.js",
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ethers": "^5.7.1",
     "next": "12.1.5",
     "react": "18.0.0",
